@@ -33,7 +33,7 @@ document.getElementById('btn-add-money')
             document.getElementById('account-balance').innerText = newBalance;
 
          }else{
-            alert('failed to adding money')
+            alert('Wrong Pin Number. Please try again later.')
          }
 
 })
